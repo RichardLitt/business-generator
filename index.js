@@ -7,7 +7,7 @@ function getRandomInt(max) {
 
 const places = ['weddings', 'barns', 'Urban Outfitters', 'colleges', 'bars', 'your parents house', 'a cabin in the woods', 'an art gallery in Paris', 'a Balinese atelier', 'a blockchain marketplace']
 
-const types = ['oil paintings', 'mashups', 'collages', 'mementos', 'tickets', 'curios']
+const types = ['oil paintings', 'mashups', 'collages', 'mementos', 'tickets', 'curios', 'Rube Goldberg machines']
 
 function selectRandom(list) {
   return list[getRandomInt(list.length)]
